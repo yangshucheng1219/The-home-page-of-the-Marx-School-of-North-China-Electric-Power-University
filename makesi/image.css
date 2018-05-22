@@ -1,0 +1,57 @@
+#banner{
+    position: relative;
+    left:18px;
+    top:16px;
+    height:210px;
+    width: 280px;
+    overflow: hidden;
+}
+#banner_list img{
+    border: 0px;
+    width: 280px;
+    height: 210px;
+}
+#banner_list a{
+    position: absolute;
+    width: 280px;
+    height: 210px;
+}
+#banner ul{
+    position: absolute;
+    right: 12px;
+    bottom: 13px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+}
+#banner ul li{
+    padding: 0px 8px;
+    float: left;
+    display: block;
+    color: #fff;
+    background-color: #fc0501;
+    cursor: pointer;
+    margin-right: 2px;
+}
+#banner ul li:hover{
+    background-color:#cb0000;
+}
+#banner ol{
+    position: absolute;
+    width: 1120px;
+    overflow: hidden;
+    left:0px;
+}
+#banner ol li{
+    height:210px;
+    width: 280px;
+    float: left;
+
+}
+#banner_list {
+    position: relative;
+    width: 280px;
+    height: 210px;
+}
+.on{    background-color:#cb0000 !important;}
